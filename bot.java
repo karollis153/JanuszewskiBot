@@ -16,7 +16,7 @@ public class Main {
 	//Main method
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws LoginException{
-		jda = new JDABuilder(AccountType.BOT).setToken("NjAwMzM5NzMzMDE2NzM5ODcz.XSyUSw.8caiG0BoeU6G22099HKH_VUcHR4").buildAsync();
+		jda = new JDABuilder(AccountType.BOT).setToken("").buildAsync();
 		jda.getPresence().setStatus(OnlineStatus.IDLE);
 		jda.getPresence().setGame(Game.watching("Przerwa Techniczna"));
 		
