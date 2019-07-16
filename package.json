@@ -1,0 +1,13 @@
+{
+  "name": "JanuszewskiBot",
+  "description": "JanuszewskiBot",
+  "version": "0.0.0",
+  "main": "bot.java",
+  "scripts": {
+    "start": "node bot.java"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
